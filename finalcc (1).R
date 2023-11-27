@@ -6,7 +6,7 @@ ui <- fluidPage(
   titlePanel("Interactive 2D Spline Plot for mtcars data"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput("x_coord", "Miles per gallon:", min = 10.4, max = 33.9, value =14.3),
+      sliderInput("x_coord", "Miles per gallon:", min = 11, max = 33.9, value =14.3),
       sliderInput("y_coord", "Horsepower:", min = 52, max = 335, value = 245)
     ),
     mainPanel(
